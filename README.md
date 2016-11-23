@@ -20,7 +20,7 @@ learn to build bots and add Video, SMS and Voice to your apps by using Cisco Spa
 Access to Labs is free, allowed to Codemotion Conference Ticket holders.*
 
 
-# Thanks for joining the CodeLabs
+#<a name="code"></a> Thanks for joining the CodeLabs
 
 __Pick a lab in the list to learn to build ChatBots, or add SMS, Voice, Video interactions for your existing apps__
 
@@ -32,7 +32,7 @@ In these labs serie, you’ll go through the various steps to build Chat Bots fo
 As we introduce Cisco Spark API, you will use the interactive documentation to experience Cisco Spark programmability. We’ll then go through a few use-cases, and drill into the fundamentals of Cisco Spark Apps.
 After this lab, you should have enough knowledge to easily navigate among Cisco Spark Learning Labs, as well as broader technical resources such as “Spark for Developers” and DevNet ’s “Cisco Spark Community of Interest”.  
 
-2. [**Run a Cisco Spark Bot locally** (15min)](): as introduced earlier, Cisco Spark Bots are applications that invoke the Cisco Spark API under a Bot account identity. In this lab, you will learn to run your own Cisco Spark Bot by taking several steps: create a Bot account, run a sample Cisco Spark bot on your local machine, expose your bot to the internet., and register two Webhooks in order to have Cisco Spark post notifications to your bot. Finally, you will interact with your bot.
+2. [**Run a Cisco Spark Bot locally** (15min)](labs/SPARK-2-Run-a-Cisco-Spark-Bot-locally.pdf): as introduced earlier, Cisco Spark Bots are applications that invoke the Cisco Spark API under a Bot account identity. In this lab, you will learn to run your own Cisco Spark Bot by taking several steps: create a Bot account, run a sample Cisco Spark bot on your local machine, expose your bot to the internet., and register two Webhooks in order to have Cisco Spark post notifications to your bot. Finally, you will interact with your bot.
 
 3. [**Run and deploy a Cisco Spark Bot on Cloud9** (25 min)](labs/SPARK-3-Deploy-a-Cisco-Spark-Bot.pdf): in this lab, you will learn to run your own Cisco Spark Bot by taking several steps: create a Bot account, deploy a nodejs code sample from Cloud9 development environment, and finally register two Webhooks to have your bot receive events as they happen in Cisco Spark rooms.
 
@@ -47,7 +47,7 @@ In these labs serie, you'll learn to give a voice to your code and send SMS in b
 
 6. [**Create a Voice Machine** (15 min)](labs/TROPO-1-Create-a-Voice-Machine.pdf): Tropo is a cloud API that allows you to automate communications over the phone and SIP VoIP networks. Both voice and SMS are supported, and no telephony knowledge is needed. In this lab, you will learn the basics of how to use Tropo. You'll create a simple Tropo application, get a Tropo number in a country of your choice, and build a simple Voice Machine controlled by your code.
       
-7. [**Mixing Voice and SMS** (10 min)](labs/TROPO-2-Mixing-Voice-and-SMS.pdf): learn to mix Voice and SMS in a single call. You'll build an app that will prompt you for a phone number and send an SMS message containing a randomly selected quote to that number.
+7. [**Mixing Voice and SMS** (10 min)](labs/TROPO-2-Mixing-Voice-and-SMS.pdf): learn to mix Voice and SMS in a single call. You'll build an app that will prompt you for a phone number and send a SMS containing a randomly selected quote.
 
 8. [**Outbound SMS Dialer** (15min)](labs/TROPO-3-Outbound-SMS-Dialer.pdf): create a basic dialer that will send multiple SMS to a list of Mobile phone numbers read from a CSV file.
 
