@@ -16,43 +16,54 @@ Wanna go hands-on ? take a CiscoDevNet code lab
 - [Nov 25th, from 11:30 till 18:00](http://milan2016.codemotionworld.com/schedule/add-super-power-to-your-app-chatbots-chatops-video-sms-and-voice-by-using-cisco-spark-and-tropo/), 
 learn to build bots and add Video, SMS and Voice to your apps by using Cisco Spark and Tropo.
 
-
-# Code Labs
-
 *If you are working on an app and you wish to boost the communication capabilities, don’t miss these labs!
 Access to Labs is free, allowed to Codemotion Conference Ticket holders.*
 
-__Learn to build bots and add Video, SMS and Voice to your apps by using Cisco Spark and Tropo__:
 
-- **ChatBots**: In this lab, we’ll go through the various steps to build a Cisco Spark bot : create a Bot account, register it into Cisco Spark, build your own bot, run it live.
-   1. [Optional] [Introduction to Cisco Spark Apps](labs/SPARK-Introduction-to-Cisco-Spark-Apps.pdf)
-   2. [Run a Cisco Spark Integration locally]()
-   3. [Optional] [Deploy a Cisco Spark Bot](labs/SPARK-Deploy-a-Cisco-Spark-Bot.pdf)
-   4. [Run a Cisco Spark Integration locally](labs/SPARK-Run-a-Cisco-Spark-Integration-locally.pdf)
-   5. [Optional] [Deploy a Cisco Spark Integration](labs/SPARK-Deploy-a-Cisco-Spark-Integration.pdf)
+# Thanks for joining the CodeLabs
 
-- **ChatOps in practice**: Get a 360 view on your operations via ChatOps. In this lab, you’ll learn how to get real-time information about your back-end applications, all this in a Cisco Spark encrypted messaging channel.
+__Pick a lab in the list to learn to build ChatBots, or add SMS, Voice, Video interactions for your existing apps__
 
-- **Video and Mobile applications**: Communicate directly with customers!  Integrate Video communications into Mobile applications. Take this lab to add the new Cisco Spark SDK capabilities to your existing iOS applications.
-It’s recommended to install iOS developer tools (for iOS applications).
-ATTENTION: If you’re going to attend the “Video and Mobile applications” lab, you will need to bring with you your Mac (only PCs will be provided in the lab room).
+## From ZERO to Enterprise ChatBots with Cisco Spark APIs
 
-- **Video and Web applications**: Make your application more interactive!  Integrate Video communications into your Web applications. Take this lab to add the new Cisco Spark SDK capabilities to your existing Web applications.
-It’s recommended to install Javascript & Web IDE if you’re going to use your own laptop.
+In these labs serie, you’ll go through the various steps to build Chat Bots for Cisco Spark: create a Bot account, register it into Cisco Spark, run your own bot locally, deploy it live...
 
-- **Voice**: Give a voice to your application, add voice interactions! Take this lab to learn to create your own Voice Interactive Assistants (IVR) in Javascript. You’ll learn to create an inbound Voice channel for your application, and then attach a Tropo phone number to your application to test your IVR live.
-   6. [Create a Voice Machine](labs/TROPO-Create-a-Voice-Machine.pdf)
-   
-- **SMS**: Add SMS interactions to your apps! In this lab, you’ll learn to add inbound and outbound SMS to your application, by first attaching a Tropo phone number to your application, send a SMS from an existing application, and to receive text from a SMS text’ed to your Tropo phone number.
-   7. [Outbound SMS Dialer](labs/TROPO-Outbound-SMS-Dialer.pdf)
-   8. [Mixing Voice and SMS](labs/TROPO-Mixing-Voice-and-SMS.pdf)
+1. [**Introduction to Cisco Spark Apps** (15min)](labs/SPARK-1-Introduction-to-Cisco-Spark-Apps.pdf): in this lab, we will take a few steps back to present Cisco Spark's extensibility "Big Picture",
+As we introduce Cisco Spark API, you will use the interactive documentation to experience Cisco Spark programmability. We’ll then go through a few use-cases, and drill into the fundamentals of Cisco Spark Apps.
+After this lab, you should have enough knowledge to easily navigate among Cisco Spark Learning Labs, as well as broader technical resources such as “Spark for Developers” and DevNet ’s “Cisco Spark Community of Interest”.  
+
+2. [**Run a Cisco Spark Bot locally** (15min)](): as introduced earlier, Cisco Spark Bots are applications that invoke the Cisco Spark API under a Bot account identity. In this lab, you will learn to run your own Cisco Spark Bot by taking several steps: create a Bot account, run a sample Cisco Spark bot on your local machine, expose your bot to the internet., and register two Webhooks in order to have Cisco Spark post notifications to your bot. Finally, you will interact with your bot.
+
+3. [**Run and deploy a Cisco Spark Bot on Cloud9** (25 min)](labs/SPARK-3-Deploy-a-Cisco-Spark-Bot.pdf): in this lab, you will learn to run your own Cisco Spark Bot by taking several steps: create a Bot account, deploy a nodejs code sample from Cloud9 development environment, and finally register two Webhooks to have your bot receive events as they happen in Cisco Spark rooms.
+
+4. [**Run a Cisco Spark Integration locally** (15 min)](labs/SPARK-4-Run-a-Cisco-Spark-Integration-locally.pdf): by creating custom applications, developers can tie together Cisco Spark with existing enterprise processes and data. For example, you may add the Jira Integration to an existing Room and get the participants notified as Jira issues (EPIC, Story, Task or Bugs) are created or updated. The process used to request permissions is called "OAuth Grant Flow".
+In this lab, we’ll go through an existing NodeJS example that displays the name of Cisco Spark users. We will deploy it on Heroku, and register it as a Cisco Spark Integration.
+
+5. [**Deploy a Cisco Spark Integration on Heroku** (15 min)](labs/SPARK-5-Deploy-a-Cisco-Spark-Integration.pdf): as introduced in previous labs, Cisco Spark Integrations and Bots concretize Cisco Spark’s extensibility. Cisco Spark Integrations let your applications request permission to invoke the Cisco Spark API on behalf of other users. In this lab, we’ll go through an existing NodeJS example that displays the name of Cisco Spark users. We will deploy it on Heroku, and register it as a Cisco Spark Integration.
+
+## Add SMS and Voice to your apps using Tropo APIs
+
+In these labs serie, you'll learn to give a voice to your code and send SMS in batch by taking several steps: create an inbound Voice channel for your application, attach a Tropo phone number to your application, create outbound sessions dynamically to mix Voice an SMS..
+
+6. [**Create a Voice Machine** (15 min)](labs/TROPO-1-Create-a-Voice-Machine.pdf): Tropo is a cloud API that allows you to automate communications over the phone and SIP VoIP networks. Both voice and SMS are supported, and no telephony knowledge is needed. In this lab, you will learn the basics of how to use Tropo. You'll create a simple Tropo application, get a Tropo number in a country of your choice, and build a simple Voice Machine controlled by your code.
+      
+7. [**Mixing Voice and SMS** (10 min)](labs/TROPO-2-Mixing-Voice-and-SMS.pdf): learn to mix Voice and SMS in a single call. You'll build an app that will prompt you for a phone number and send an SMS message containing a randomly selected quote to that number.
+
+8. [**Outbound SMS Dialer** (15min)](labs/TROPO-3-Outbound-SMS-Dialer.pdf): create a basic dialer that will send multiple SMS to a list of Mobile phone numbers read from a CSV file.
+
+
+## Add Video to your Mobile and Web applications with Cisco Spark SDKs
+
+Reach to your Cisco technology mentors to get info about the Spark SDKs early access programs,
+as well as the code samples you can run today on your own machines.
 
 
 ## How to take a code lab
 
-Either register online at Cisco DevNet, and go through the [Cloud Collaboration Learning Track](https://learninglabs.cisco.com/tracks/collab-cloud),
+Either join the Cisco CodeLab room in Milan on Nov 25th, 
+or register online at Cisco DevNet, and go through the [Cloud Collaboration Learning Track](https://learninglabs.cisco.com/tracks/collab-cloud),
 
-or join the Cisco Area in Milan, pick one or several labs among the learnings labs proposed on-site, and get help from our technical mentoring crew.
+
 
 
 
