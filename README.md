@@ -25,6 +25,11 @@ Access to Labs is free, allowed to Codemotion Conference Ticket holders.*
 __Learn to build bots and add Video, SMS and Voice to your apps by using Cisco Spark and Tropo__:
 
 - **ChatBots**: In this lab, we’ll go through the various steps to build a Cisco Spark bot : create a Bot account, register it into Cisco Spark, build your own bot, run it live.
+   1. [Optional] [Introduction to Cisco Spark Apps](labs/SPARK-Introduction-to-Cisco-Spark-Apps.pdf)
+   2. [Run a Cisco Spark Integration locally]()
+   3. [Optional] [Deploy a Cisco Spark Bot](labs/SPARK-Deploy-a-Cisco-Spark-Bot.pdf)
+   4. [Run a Cisco Spark Integration locally](labs/SPARK-Run-a-Cisco-Spark-Integration-locally.pdf)
+   5. [Optional] [Deploy a Cisco Spark Integration](labs/SPARK-Deploy-a-Cisco-Spark-Integration.pdf)
 
 - **ChatOps in practice**: Get a 360 view on your operations via ChatOps. In this lab, you’ll learn how to get real-time information about your back-end applications, all this in a Cisco Spark encrypted messaging channel.
 
@@ -35,10 +40,12 @@ ATTENTION: If you’re going to attend the “Video and Mobile applications” l
 - **Video and Web applications**: Make your application more interactive!  Integrate Video communications into your Web applications. Take this lab to add the new Cisco Spark SDK capabilities to your existing Web applications.
 It’s recommended to install Javascript & Web IDE if you’re going to use your own laptop.
 
-- **SMS**: Add SMS interactions to your apps! In this lab, you’ll learn to add inbound and outbound SMS to your application, by first attaching a Tropo phone number to your application, send a SMS from an existing application, and to receive text from a SMS text’ed to your Tropo phone number.
-
 - **Voice**: Give a voice to your application, add voice interactions! Take this lab to learn to create your own Voice Interactive Assistants (IVR) in Javascript. You’ll learn to create an inbound Voice channel for your application, and then attach a Tropo phone number to your application to test your IVR live.
-
+   6. [Create a Voice Machine](labs/TROPO-Create-a-Voice-Machine.pdf)
+   
+- **SMS**: Add SMS interactions to your apps! In this lab, you’ll learn to add inbound and outbound SMS to your application, by first attaching a Tropo phone number to your application, send a SMS from an existing application, and to receive text from a SMS text’ed to your Tropo phone number.
+   7. [Outbound SMS Dialer](labs/TROPO-Outbound-SMS-Dialer.pdf)
+   8. [Mixing Voice and SMS](labs/TROPO-Mixing-Voice-and-SMS.pdf)
 
 
 ## How to take a code lab
