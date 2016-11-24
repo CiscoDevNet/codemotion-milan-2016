@@ -20,7 +20,7 @@ learn to build bots and add Video, SMS and Voice to your apps by using Cisco Spa
 Access to Labs is free, allowed to Codemotion Conference Ticket holders.*
 
 
-# Thanks for joining the CodeLabs <a id="code-labs"></a>
+# <a id="code-labs"></a>Thanks for joining the CodeLabs 
 
 __Pick a lab in the list to learn to build ChatBots, or add SMS, Voice, Video interactions for your existing apps__
 
